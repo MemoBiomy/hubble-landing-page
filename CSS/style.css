@@ -83,12 +83,12 @@ body {
 /* landing start */
 
 .landing {
-    height: 92vh;
     background-image: url(../images/bg-hero-desktop.svg);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
     background-color: var(--veryPaleCyan);
+    height: 100vh;
 }
 
 header {
@@ -110,7 +110,7 @@ header img {
     display: flex;
     align-items: center;
     gap: 40px;
-    margin-top: 80px;
+    margin-top: 120px;
 }
 
 .landing section .main {
@@ -154,3 +154,43 @@ header img {
 }
 
 /* landing end */
+
+
+/* features start */
+
+.features {
+    padding: 100px 0 160px;
+}
+
+.features .card {
+    padding: 30px 30px 30px 100px;
+    display: flex;
+    align-items: center;
+    box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.1);
+    gap: 90px;
+    border-radius: 12px;
+    margin-bottom: 90px;
+}
+
+.features .card .text-box {
+    flex-shrink: 0;
+}
+
+.features .card h2 {
+    color: var(--veryDarkCyan);
+    font-weight: var(--poppinsWeight);
+    font-family: var(--poppinsFont);
+    margin-bottom: 30px;
+}
+
+.features .card p {
+    color: var(--grayishBlue);
+    line-height: 1.6;
+    max-width: 515px;
+}
+
+.features .image-box img {
+    width: 100%;
+}
+
+/* features end */
